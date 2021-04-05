@@ -34,6 +34,8 @@
     -ms-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0);
     -o-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0);
 }
+
+
 .textContent p.abtP{
     margin-bottom: 6px;
 }
@@ -79,6 +81,9 @@
     }
     /* 內頁主內容區域_end */
     /* about.html_start */
+    .aboutContent p {
+        text-align: justify;
+    }
     .aboutContent .portfItem:hover {
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
         -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
@@ -90,6 +95,7 @@
 }
 
 @media only screen and (max-width: 568px) {
+
     .aboutContent .portfItem{
         padding: 12px;
     }
