@@ -1,0 +1,57 @@
+/* 基本設定_start */
+
+.indexContainer {
+    padding: 0px;
+}
+
+.indexButtonContent {
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+/* 基本設定_end */
+
+
+
+/* index_news_end */
+
+@media only screen and (max-width: 1499px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {
+    footer{
+        padding-bottom: 5px;
+    }
+    .bannerText{
+        width: 100%;
+    }
+    .bannerText .textTitle{
+        letter-spacing: 6px;
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+    .bannerImg {
+        padding-bottom: 139%;
+    }
+}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}
