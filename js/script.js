@@ -151,128 +151,128 @@ $(document).ready(function() {
 
 });
 
-$('.indexCategoryContent .owl-carousel').owlCarousel({
-    loop: false,
-    margin: 16,
-    nav: true,
-    dots: false,
-    navText: ["<span class='material-icons'>keyboard_arrow_left</span>", "<span class='material-icons'>keyboard_arrow_right</span>"],
-    responsive: {
-        0: {
-            items: 1
-        },
-        568: {
-            items: 2
-        },
-        767: {
-            items: 3
-        },
-        991: {
-            items: 4
-        }
-    }
-});
+// $('.indexCategoryContent .owl-carousel').owlCarousel({
+//     loop: false,
+//     margin: 16,
+//     nav: true,
+//     dots: false,
+//     navText: ["<span class='material-icons'>keyboard_arrow_left</span>", "<span class='material-icons'>keyboard_arrow_right</span>"],
+//     responsive: {
+//         0: {
+//             items: 1
+//         },
+//         568: {
+//             items: 2
+//         },
+//         767: {
+//             items: 3
+//         },
+//         991: {
+//             items: 4
+//         }
+//     }
+// });
 
-$('.bannerContent .owl-carousel').owlCarousel({
-    loop: false,
-    margin: 0,
-    nav: true,
-    dots: true,
-    mouseDrag: false,
-    navText: ["<span class='material-icons'>keyboard_arrow_left</span>", "<span class='material-icons'>keyboard_arrow_right</span>"],
-    responsive: {
-        0: {
-            items: 1
-        },
-        568: {
-            items: 1
-        },
-        767: {
-            items: 1
-        },
-        991: {
-            items: 1
-        }
-    }
-});
+// $('.bannerContent .owl-carousel').owlCarousel({
+//     loop: false,
+//     margin: 0,
+//     nav: true,
+//     dots: true,
+//     mouseDrag: false,
+//     navText: ["<span class='material-icons'>keyboard_arrow_left</span>", "<span class='material-icons'>keyboard_arrow_right</span>"],
+//     responsive: {
+//         0: {
+//             items: 1
+//         },
+//         568: {
+//             items: 1
+//         },
+//         767: {
+//             items: 1
+//         },
+//         991: {
+//             items: 1
+//         }
+//     }
+// });
 
 AOS.init();
 
 //側選單欄位開闔設定
 
-$(document).ready(function() {
-    $(".sideBtn").click(function() {
-        $(this).closest(".sideInner").children(".sideInnerMenu").slideToggle();
-    });
-    $(".sideBtn").click(function() {
-        $(this).closest(".sideActiveInner a").toggleClass('active');
+// $(document).ready(function() {
+//     $(".sideBtn").click(function() {
+//         $(this).closest(".sideInner").children(".sideInnerMenu").slideToggle();
+//     });
+//     $(".sideBtn").click(function() {
+//         $(this).closest(".sideActiveInner a").toggleClass('active');
 
-    });
-});
+//     });
+// });
 
 
-// 產品照片輪播設定 //
-$(document).ready(function() {
-    $('.bigImage .owl-carousel').owlCarousel({
-        items: 1,
-        center: true,
-        margin: 0,
-        callbacks: true,
-        URLhashListener: true,
-        autoplayHoverPause: true,
-        smartSpeed: 150,
-        animateIn: 'fadeIn',
-        animateOut: 'fadeOut',
-        autoplay: false,
-        mouseDrag: false,
-        touchDrag: false,
-        nav: false,
-        navText: ["<span class='material-icons'>keyboard_arrow_left</span>", "<span class='material-icons'>keyboard_arrow_right</span>"],
+// // 產品照片輪播設定 //
+// $(document).ready(function() {
+//     $('.bigImage .owl-carousel').owlCarousel({
+//         items: 1,
+//         center: true,
+//         margin: 0,
+//         callbacks: true,
+//         URLhashListener: true,
+//         autoplayHoverPause: true,
+//         smartSpeed: 150,
+//         animateIn: 'fadeIn',
+//         animateOut: 'fadeOut',
+//         autoplay: false,
+//         mouseDrag: false,
+//         touchDrag: false,
+//         nav: false,
+//         navText: ["<span class='material-icons'>keyboard_arrow_left</span>", "<span class='material-icons'>keyboard_arrow_right</span>"],
 
-    });
-});
-$(document).ready(function() {
-    $('.imgControl .owl-carousel').owlCarousel({
-        loop: false,
-        margin: 8,
-        autoplay: false,
-        nav: false,
-        dots: false,
-        responsive: {
-            0: {
-                items: 3
-            },
-            768: {
-                items: 3
-            },
-            992: {
-                items: 4
-            }
-        }
-    })
-});
+//     });
+// });
+// $(document).ready(function() {
+//     $('.imgControl .owl-carousel').owlCarousel({
+//         loop: false,
+//         margin: 8,
+//         autoplay: false,
+//         nav: false,
+//         dots: false,
+//         responsive: {
+//             0: {
+//                 items: 3
+//             },
+//             768: {
+//                 items: 3
+//             },
+//             992: {
+//                 items: 4
+//             }
+//         }
+//     })
+// });
 
-$(document).ready(function() {
-    $('.videoContent .owl-carousel').owlCarousel({
-        loop: false,
-        margin: 8,
-        autoplay: false,
-        nav: true,
-        dots: false,
-        navText: ["<span class='material-icons'>keyboard_arrow_left</span>", "<span class='material-icons'>keyboard_arrow_right</span>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 1
-            },
-            992: {
-                items: 4
-            }
-        }
-    })
-});
+// $(document).ready(function() {
+//     $('.videoContent .owl-carousel').owlCarousel({
+//         loop: false,
+//         margin: 8,
+//         autoplay: false,
+//         nav: true,
+//         dots: false,
+//         navText: ["<span class='material-icons'>keyboard_arrow_left</span>", "<span class='material-icons'>keyboard_arrow_right</span>"],
+//         responsive: {
+//             0: {
+//                 items: 1
+//             },
+//             768: {
+//                 items: 1
+//             },
+//             992: {
+//                 items: 4
+//             }
+//         }
+//     })
+// });
 
 // $(window).scroll(function() {
 //     var scroll = $(window).scrollTop();
