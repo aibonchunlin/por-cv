@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+
+.headLogo,
+.footerLogo{
+    padding: 10px;
+}
+
+
+.headLogo img,
+.footerLogo img{
+    display: block;
+    margin: 0 auto;
+}
+
+.mobileBannerImg,
+.mbQ1Img{
+    display: none;
+}
+
+/* button_start */
+a.btnLink{
+    display:block;
+    background:#FFC129;
+    padding: 10px 0px;
+    text-align: center;
+    border: 1px solid #FFC129;
+    color:#1E1E1E;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 190px;
+    transition:  all 0.2s ease;
+    -webkit-transition:  all 0.2s ease;
+    -moz-transition:  all 0.2s ease;
+    -ms-transition:  all 0.2s ease;
+    -o-transition:  all 0.2s ease;
+}
+a.btnLink:hover{
+    background:#fff;
+    color:#FFC129;
+    border: 1px solid #FFC129;
+}
+a.btnLink span{
+    display: inline-block;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.iconBtn{
+    padding-left: 15px;
+}
+/* button_end */
+
+
+/* 共同_start */
+.mainContent{
+    background: #fff; 
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    margin: 15px 0; 
+    padding: 18px 10px;   
+}
+.contentTitle p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contentText{
+    padding: 10px 20px;
+    /* text-align: justify; */
+}
+
+.contentText p{
+    margin: 0 auto;
+}
+
+.redImport{
+    color: #F31E1E;
+}
+
+
+/* 共同_end */
+
+/* mainContent_top_start */
+.contentTop{
+    width: 68.4%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    margin-top: -40px;
+       
+}
+
+/* mainContent_top_end */
+
+
+/* content_Q1&Q2_start */
+
+.contentQ1Inner{
+    position: relative;
+}
+
+.contentTitle_q{
+    display: table;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+p.numb{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2BB6B2;
+    padding: 0 15px;
+}
+
+p.quesTitle{
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFC129;
+    font-weight: 700;
+}
+
+
+.contentQ1{
+    background: #4A4A4A;
+    box-shadow: unset;
+}
+
+.textQ1 p{
+    color: #fff;
+    width: 68.4%;
+    padding-bottom: 20px;
+
+}
+
+.redBg{
+    /* display: inline-block; */
+    background: #F31E1E;
+    color: #fff;
+}
+
+.q1Img{
+    z-index: -10;
+}
+
+
+.textQ2{
+    text-align: center;
+}
+
+.textQ2 p{
+    padding-bottom: 20px;
+
+}
+
+/* content_Q1&Q2_end */
+
+
+/* text01&02_start */
+.mainConText{
+    margin: 12px 0;
+    padding: 18px 10px;
+}
+.conTx01{
+    background: #2BB6B2;
+}
+
+.conTx01 p{
+    color: #fff;
+    width: 68.4%;
+    margin: 0 auto;
+    text-align: justify;
+
+}
+
+.conTx02{
+    background: #FFC129;
+}
+
+.conTx02 p{
+    color: #1E1E1E;
+    text-align: center;
+}
+
+.conTx02 a{
+    color: #047572;
+    font-weight: 700;
+}
+/* text01&02_end */
+
+
+/* form_start */
+.campForm {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    margin: 12px 0;
+    padding: 18px 30px;
+}
+
+.campForm form{
+    letter-spacing: 1px;
+}
+
+.formTitle p{
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFC129;
+}
+
+.formText{
+    text-align: center;
+    width: 100%;
+}
+
+.formTextUnit {
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+.campForm .bmd-form-group [class*=" bmd-label"], .bmd-form-group [class^=bmd-label]{
+    position: static;
+}
+
+.campForm .bmd-form-group.bmd-label-static .control-label.bmd-label-static {
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.campForm .bmd-form-group.is-focused{
+    color: #2BB6B2;
+}
+
+.campForm .form-group .labelInput{
+    margin-bottom: 5px;
+    display: block;
+    font-size: 15px;
+    color: #1E1E1E;
+}
+
+.campForm .form-group .form-control {
+    display: block;
+    width: 100%;
+    line-height: 1.6;
+}
+
+.campForm .form-checkBox{
+    margin: 30px 0 15px 0;
+}
+
+.form-checkBox .labelInput.checkboxTit {
+    margin-bottom: 15px;
+}
+
+.form-checkBox .form-group.form-group_check {
+    margin-bottom: unset;
+}
+
+.campForm .checkBoxInput{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.campForm .control-label{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.campForm .form-checkBox .control_Check span{
+    font-size: 15px;
+}
+
+.campForm textarea{
+    width: 80%;
+}
+
+
+.formBtnContent{
+    text-align: center;
+    padding: 20px 0 15px;
+}
+
+.formBtnContent span{
+    display: inline-block;
+}
+
+.formBtnContent .formBtnReset {
+    background: #d8d8d8;
+    padding: 5px 20px;
+    border: unset;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.formBtnContent .formBtnReset:hover{
+    background: #e6e6e6;
+}
+
+.formBtnContent .formBtn {
+    /* background: #ff4343; */
+    background: #2BB6B2;
+    padding: 5px 20px;
+    border: unset;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.formBtnContent .formBtn:hover{
+    background: #FFC129;
+}
+
+.formBtnContent .formBtnReset span{
+    color: #1E1E1E;
+}
+
+.formBtnContent .formBtn span{
+    color: #fff;
+}
+
+/* form_end */
+
+@media only screen and (max-width: 1499px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media (max-width: 991px) and (min-width: 767px){
+    .contentTop{
+        width: 76.4%;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {
+    .textQ1{
+        width: 100%;
+    }
+
+    .contentTop{
+        width: 100%;
+    }
+
+    .textQ1 p{
+        width: 100%;
+    }
+    
+    .campForm{
+        padding: 20px;
+    }
+    .campForm .form-group .form-control{
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+    .bannerImg,
+    .q1Img{
+        display: none;
+    }
+
+    .mobileBannerImg,
+    .mbQ1Img{
+        display: block;
+    }
+    
+    .contentTop{
+        margin-top: unset;
+    }
+
+    .contentTop .contentText{
+        padding: 20px 10px ;
+    }
+    
+    p.quesTitle{
+        text-align: left;
+    }
+
+    .textQ2{
+        text-align: left;
+    }
+
+    .conTx01 p{
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}

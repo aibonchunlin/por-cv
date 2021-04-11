@@ -670,7 +670,8 @@ footer .info ul li span.material-icons {
 }
 
 .portfName {
-    height: 50px;
+    /* height: 50px; */
+    padding: 3px 0px;
     position: relative;
 
 }
@@ -714,10 +715,11 @@ footer .info ul li span.material-icons {
 
 
 .portfName .textTitle {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     color: #14213D;
     font-size: 22px;
     font-weight: 400;
+    height: 27px;
 }
 
 .portfItem:hover .portfName .textTitle {
