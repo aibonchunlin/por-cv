@@ -287,7 +287,7 @@ AOS.init();
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 300) {
+    if (scroll >= 180) {
         $(".floatMenuContainer").addClass("floatShow");
     } else {
         $(".floatMenuContainer").removeClass("floatShow");
