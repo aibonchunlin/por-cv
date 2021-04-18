@@ -1057,7 +1057,7 @@ ul.newsItemContent li.newsItem .txtNormal {
         outline: none;
         margin: 0;
         border: 1px solid #FFF;
-        background-color: #000;
+        background-color: #14213D;
     }
     .mbMenuBar {
         width: 32px;
@@ -1128,7 +1128,7 @@ ul.newsItemContent li.newsItem .txtNormal {
         padding-left: 16px;
     }
     .mbMenu {
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(20, 33, 61, 0.9);
     }
     .mbClose {
         padding: 8px;
