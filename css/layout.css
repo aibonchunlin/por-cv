@@ -825,9 +825,9 @@ footer .info ul li span.material-icons {
     width: unset;
 }
 
-.imgControl .item a.active {
-    /* border: 1px solid #000; */
-}
+/* .imgControl .item a.active {
+    border: 1px solid #000;
+} */
 
 .productDtIntro {
     margin-top: 12px;
