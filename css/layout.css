@@ -705,7 +705,7 @@ footer .info ul li span.material-icons {
 
 .portfName .textTitle,
 .portfName .textSubtitle{
-    line-height: 1;
+    /* line-height: 1; */
     letter-spacing: 1px;
     overflow: hidden;
     text-overflow: ellipsis;
