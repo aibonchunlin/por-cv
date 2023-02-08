@@ -9,6 +9,9 @@
     margin-top: 24px;
 }
 
+.idxContentTitle {
+    margin-top: 20px;
+}
 
 /* 基本設定_end */
 
@@ -27,6 +30,13 @@
     -o-transform: translate(-50%,-50%);
 }
 /* Banner_end */
+
+/* 內容_start */
+.portfItem {
+    padding: 10px 15px;
+}
+/* 內容_end */
+
 
 /* 頁尾_start */
 .copyright{
