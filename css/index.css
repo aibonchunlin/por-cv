@@ -10,8 +10,38 @@
 }
 
 .idxContentTitle {
-    margin-top: 20px;
+    margin-top: 30px;
+    padding-bottom: unset;
+    margin-bottom: unset;
 }
+
+.textContent p.content_tit{
+    margin-top: 30px;
+    font-weight: bold;
+    padding-bottom: unset;
+    margin-bottom: unset;
+    position: relative;
+}
+
+/* .textContent p.content_tit::after {
+    content: "";
+    display: block;
+    background-color: #FCA311;
+    width: 65%;
+    height: 1px;
+    padding-left: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+
+} */
+
+
 
 /* 基本設定_end */
 
@@ -32,9 +62,32 @@
 /* Banner_end */
 
 /* 內容_start */
+.proAccor{
+    margin-top: 10px;
+}
+
+.proAccor .card-header{
+    padding: 10px 15px;
+}
+
 .portfItem {
     padding: 10px 15px;
 }
+
+.contentBlock{
+    padding-bottom: 30px;
+}
+
+.idxAbout{
+    padding-bottom: 60px;
+}
+
+.idxAbout .portfItem{
+    padding: 20px 15px;
+}
+
+
+
 /* 內容_end */
 
 

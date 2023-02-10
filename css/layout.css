@@ -276,7 +276,7 @@ footer .info ul li span.material-icons {
 }
 
 .textContent ul li span {
-    display: block;
+    display: inline-block;
     letter-spacing: 1.2px;
     line-height: 1.5;
     color: rgb(97, 97, 97);

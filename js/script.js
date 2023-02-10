@@ -293,3 +293,14 @@ $(window).scroll(function() {
         $(".floatMenuContainer").removeClass("floatShow");
     }
 });
+
+// 錨點
+$(document).ready(function(){
+    $("#mainMenu a").on("click", function () {
+        let hrefLink = $(this).attr("href");
+        console.log(hrefLink);
+        $("html,body").animate({
+            scrollTop: $(hrefLink).offset().top
+        }, 800);
+    });
+});
