@@ -153,12 +153,8 @@
     margin: 0 auto;
 }
 
-#collapseTwo .proCard .porImg.examie{
-    width: 80%;
-}
-
 .proCard .col-padding{
-    padding: 8px;
+    padding: 8px 8px 15px 8px;
 }
 
 .proCard .col-padding.relative {
@@ -190,6 +186,26 @@
     -moz-transform: unset;
     -ms-transform: unset;
     -o-transform: unset;
+    z-index: 1;
+}
+
+.proCard .col-padding .porTxt .textSubtitle::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #242424;
+    border-radius: 25px;
+    margin: 0 3px 3px 0;
+}
+
+#collapseOne .proCard .col-padding .porTxt{
+    position: static;
+    transform: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
 }
 
 
@@ -204,6 +220,10 @@
     font-weight: 300;
 } */
 
+/* about */
+.portfItem .aboutCanList ul li{
+    font-size: 18px;
+}
 
 
 /* 內容_end */
