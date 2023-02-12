@@ -88,29 +88,111 @@
 }
 
 
-/* think */
+/* diamond Think */
 .porThink .col-padding{
     padding: 0px;
 }
 
-/* product cro */
-
-.proPlan{
-    padding: 10px;
+.porThink .porImg{
+    text-align: center;
 }
 
-.proPlan .abtP{
-    padding: 0 10px;
-    font-weight: 600;
+/* productDesigner list */
+.proAccorInner button{
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 5px 0px;
+
 }
 
-.proPlan .col-padding{
-    padding: 10px 0px;
+.proAccorInner button::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #FCA311;
+    border-radius: 25px;
+    margin: 0 3px 3px 0;
+}
+
+.proAccorInner button:hover {
+    background-color: unset;
+    text-decoration: unset;
+    color: #219EBC;
+}
+
+.proAccorInner button:focus {
+    text-decoration: unset;
+    color:#FCA311;
+}
+
+/* .proAccorInner button.collapsed{
+    color: unset;
+} */
+
+.proAccorInner button:active {
+    text-decoration: unset;
+
+}
+
+.proAccorInner button:hover:active {
+    background-color: unset;
+}
+
+.proCard{
+    padding: 10px 5px;
+}
+
+.proCard .row{
+    margin: 0;
 }
 
 .proCard .porImg{
-    box-shadow: 0 0 3px 0 rgba(253, 162, 87, 0.5);
+    border: 1px solid rgba(252, 163, 17, 0.5);
+    text-align: center;
+    margin: 0 auto;
 }
+
+#collapseTwo .proCard .porImg.examie{
+    width: 80%;
+}
+
+.proCard .col-padding{
+    padding: 8px;
+}
+
+.proCard .col-padding.relative {
+    position: relative;
+}
+
+.proCard .porTxt{
+    font-size: 16px;
+    width: 100%;
+    background-color: rgb(255, 206, 100);
+    border-radius: 5px;
+    padding: 20px 14px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.proCard .col-padding.left .porTxt{
+    right: -50px;
+    left: unset;
+    transform: unset;
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset;
+}
+
+
 
 
 /* .proAccor .textSubtitle {
