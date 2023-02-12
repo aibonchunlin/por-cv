@@ -147,6 +147,11 @@
     margin: 0;
 }
 
+#collapseTwo .proCard .row-768,
+#collapseThree .proCard .row-768 {
+    display: none;
+}
+
 .proCard .porImg{
     border: 1px solid rgba(252, 163, 17, 0.5);
     text-align: center;
@@ -154,7 +159,7 @@
 }
 
 .proCard .col-padding{
-    padding: 8px 8px 15px 8px;
+    padding: 20px 8px;
 }
 
 .proCard .col-padding.relative {
@@ -220,6 +225,12 @@
     font-weight: 300;
 } */
 
+
+.textContent.thinkTit.webD{
+    margin-top: 40px;
+}
+
+
 /* about */
 .portfItem .aboutCanList ul li{
     font-size: 18px;
@@ -263,12 +274,84 @@
 @media only screen and (min-width: 992px) {}
 
 @media only screen and (max-width: 991px) {
+    .bannerImg{
+        padding-bottom: 15%;
+    }
 
 }
 
 @media only screen and (min-width: 768px) {}
 
 @media only screen and (max-width: 767px) {
+    .topInfoContainer{
+        padding: 10px;
+    }
+    
+    .menuContainer {
+        display: contents;
+    }
+
+    #mainMenu {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    .topInfoContainer{
+        padding: unset;
+    }
+    /* product designer list */
+    .proCard{
+        padding: 15px 5px;
+    }
+    
+    #collapseTwo .proCard .row,
+    #collapseThree .proCard .row {
+        display: none;
+    }
+    #collapseTwo .proCard .row-768,
+    #collapseThree .proCard .row-768 {
+        display: contents;
+    }
+    
+
+    #collapseTwo .proCard .col-padding,
+    #collapseThree .proCard .col-padding {
+        padding: 2px;
+    }
+    #collapseTwo .porTxt{
+        margin-top: 50px;
+    }
+    #collapseTwo .porTxt.first{
+        margin-top: unset;
+    }
+    
+    .proCard .col-padding.relative {
+        position: static;
+    }
+
+    .proCard .porTxt {
+        position: static;
+        top: unset;
+        left: unset;
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+    }
+
+    .proCard .col-padding.left .porTxt {
+        right: unset;
+        left: unset;
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+    }
+
     footer{
         padding-bottom: 5px;
     }
@@ -283,9 +366,16 @@
 }
 
 @media only screen and (max-width: 568px) {
-    /* .bannerImg {
-        padding-bottom: 139%;
-    } */
+    .bannerImg {
+        padding-bottom: 30%;
+    }
+    .bannerText{
+        font-size: 40px;
+    }
+    .topInfoContainer {
+
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width: 440px) {}
