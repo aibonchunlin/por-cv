@@ -403,4 +403,8 @@
 
 @media only screen and (max-width: 440px) {}
 
-@media only screen and (max-width: 420px) {}
+@media only screen and (max-width: 420px) {
+    .thinkTit .content_tit.pdTit::before{
+        left: 0px;
+    }
+}
