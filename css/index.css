@@ -97,6 +97,25 @@
     text-align: center;
 }
 
+.thinkTit .content_tit.pdTit{
+    margin-top: 50px;
+    position: relative;
+}
+.thinkTit .content_tit.pdTit::before{
+    content: "Present";
+    display: inline-block;
+    background-color: #FCA311;
+    padding: 5px;
+    color: #ffff;
+    border-radius: 25px;
+    font-size: 12px;
+    position: absolute;
+    top: -30px;
+    left: -20px;
+}
+
+
+
 /* productDesigner list */
 .proAccorInner button{
     letter-spacing: 1px;
@@ -233,6 +252,10 @@
 
 /* about */
 .portfItem .aboutCanList ul li{
+    font-size: 18px;
+}
+
+.aboutCanList p{
     font-size: 18px;
 }
 
