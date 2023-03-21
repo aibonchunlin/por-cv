@@ -250,6 +250,20 @@
     margin-top: 40px;
 }
 
+/* .porTxt.porTxt_1 {
+    position: relative;
+}
+
+.porTxt.potTxt_1::before {
+    content: "Step01";
+    display: inline-block;
+    font-size: 50px;
+    color: #242424;
+    position: absolute;
+    left: 0;
+    top: -50px;
+} */
+
 
 /* about */
 .portfItem .aboutCanList ul li{
