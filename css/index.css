@@ -313,7 +313,7 @@
 
 @media only screen and (max-width: 991px) {
     .bannerImg{
-        padding-bottom: 15%;
+        padding-bottom: 30%;
     }
 
 }
@@ -405,7 +405,7 @@
 
 @media only screen and (max-width: 568px) {
     .bannerImg {
-        padding-bottom: 30%;
+        padding-bottom: 40%;
     }
     .bannerText{
         font-size: 40px;
@@ -421,5 +421,9 @@
 @media only screen and (max-width: 420px) {
     .thinkTit .content_tit.pdTit::before{
         left: 0px;
+    }
+
+    .bannerImg {
+        padding-bottom: 30%;
     }
 }
