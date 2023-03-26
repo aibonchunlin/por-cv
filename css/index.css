@@ -118,6 +118,10 @@
     text-align: center;
 }
 
+.porImg.UX5S img{
+    width: 95%;
+}
+
 .thinkTit .content_tit.pdTit{
     margin-top: 50px;
     position: relative;
@@ -522,6 +526,9 @@
         letter-spacing: 6px;
         font-size: 50px;
     }
+    .porImg.UX5S img {
+        width: 80%;
+    }
 
 
 }
@@ -548,5 +555,8 @@
 
     .bannerImg {
         padding-bottom: 30%;
+    }
+    .porImg.UX5S img {
+        width: 80%;
     }
 }
