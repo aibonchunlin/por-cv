@@ -6,6 +6,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>GOLDEN-SPA-UiDesign & FrontEnd-Layout</title>
+	<!-- 頁簽顯示LOGO -->
+	<link rel="shortcut icon" href="images/ico_logo.ico">
+	<!-- (Bootstrap) Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Bootstrap Material Design -->
+	<link rel="stylesheet"
+		href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+		integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+	<!-- material-icons -->
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+	<!-- google-fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+		rel="stylesheet">
+	<!-- 自定義Css_start-->
+	<!-- 定義全站html標籤、網站字體或是取消套件預設 -->
+	<link rel="stylesheet" href="css/global.css">
+	<!-- 定義全站中常駐項目 -->
+	<link rel="stylesheet" href="css/layout.css">
+	<!-- 首頁專用Css -->
+	<link rel="stylesheet" href="css/index.css">
+	<!-- 預留可自定義Css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- 自定義Css_end-->
+	<!-- thisPage css -->
 	<style type="text/css">
 		body {
 			margin: 0 auto;
@@ -49,13 +77,50 @@
 </head>
 
 <body>
-	<div class="contentBlock">
-		<div class="btnLinkBlock">
-			<a href="https://www.goldenspa.com.tw/" class="btnLink" target="_blank">
-				<span>前往線上網站-GO</span>
-			</a>
+	<div class="container-fluid bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay contentBlock">
+		<!-- item start -->
+		<div class="container">
+			<div class="contentTitle sideProjectTitle">
+				<p>
+					<span>Golden SPA - Side Project</span>
+					<span class="subTit">UI design/HTML/CSS/JQuery/Bootstrap</span>
+				</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-3 col-lg-4 col-padding">
+					<div class=" portfItem">
+						<div class="portfName">
+							<a href="por-spa/por-UI-4-01.html" class="textTitle" target="_blank">首頁切版</a>
+							<p class="textSubtitle">
+								Resp. HTML/CSS/JQuery/Bootstrap
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-4 col-padding">
+					<div class=" portfItem">
+						<div class="portfName">
+							<a href="https://www.goldenspa.com.tw/" class="textTitle" target="_blank">上線網站</a>
+							<p class="textSubtitle">
+								線上維護已非本人，可欣賞其他頁大致切版
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-4 col-padding">
+					<div class=" portfItem">
+						<div class="portfName">
+							<a href="por-UI-4-03.html" class="textTitle" target="_blank">UI system</a>
+							<p class="textSubtitle">
+								PC/mobile
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<img src="images/portf/SPA-UI-CODE.png">
+		<!-- item end -->
+		<!-- button -->
 		<div class="btnLinkBlock">
 			<a href="https://aibonchunlin.github.io/por-cv/" class="btnLink" target="_blank">
 				<span>Back LORITA_WEBSITE</span>

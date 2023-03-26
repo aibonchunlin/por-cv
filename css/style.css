@@ -89,6 +89,18 @@ a.btnLink:hover{
 }
 /* 按鈕_end */
 
+/* 標題 */
+.contentTitle.sideProjectTitle span {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.contentTitle.sideProjectTitle span.subTit{
+    margin-top: unset;
+    font-size: 30px;
+}
+
+
 @media only screen and (max-width: 1499px) {}
 
 @media only screen and (min-width: 1200px) {}

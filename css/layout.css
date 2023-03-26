@@ -279,13 +279,9 @@ footer .info ul li span.material-icons {
     display: inline-block;
     letter-spacing: 1.2px;
     line-height: 1.5;
-    color: rgb(97, 97, 97);
-}
-
-.textContent ul li span:first-child {
     font-weight: 500;
     color: #219EBC;
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 5px;
 }
 
