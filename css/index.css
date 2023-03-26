@@ -216,6 +216,11 @@
     margin: 0 auto;
 }
 
+.porImg.part01{
+    width: 60%;
+    border: unset;
+}
+
 .proCard .col-padding{
     padding: 20px 8px;
 }
