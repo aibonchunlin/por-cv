@@ -423,6 +423,9 @@
     .portfItem.porBanner li img {
         width: 50%;
     }
+    .porImg.part01 {
+        width: 80%;
+    }
 
 }
 
@@ -528,6 +531,9 @@
     }
     .porImg.UX5S img {
         width: 80%;
+    }
+    .porImg.part01 {
+        width: 100%;
     }
 
 
