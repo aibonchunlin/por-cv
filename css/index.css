@@ -140,8 +140,8 @@
 /* productDesigner list */
 .proAccorInner button{
     letter-spacing: 1px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 600;
     padding: 5px 0px 5px 10px;
     position: relative;
 
@@ -334,10 +334,30 @@
 }
 
 .portfItem.porBanner li img{
-    width: 45%;
+    width: 40%;
     border: 1px solid #eeee;
 }
 
+.porHr{
+    border-top: 2px dashed rgba(0, 0, 0, 0.2);
+}
+
+.textContent.wb{
+    margin-top: 50px;
+}
+
+.backCardMenu a{
+    display: inline-block;
+    color: #242424;
+    padding: 30px 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.backCardMenu a:hover{
+    color: #FCA311;
+}
 
 
 
@@ -392,7 +412,7 @@
         padding-bottom: 30%;
     }
     .portfItem.porBanner li img {
-        width: 60%;
+        width: 50%;
     }
 
 }
@@ -484,7 +504,7 @@
     }
 
     .portfItem.porBanner li img{
-        width: 80%;
+        width: 70%;
     }
 
     footer{
