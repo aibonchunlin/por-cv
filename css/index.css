@@ -353,7 +353,7 @@
 
 .backCardMenu a{
     display: inline-block;
-    color: #242424;
+    color: #FCA311;
     padding: 30px 10px;
     font-size: 18px;
     font-weight: 600;
@@ -361,7 +361,7 @@
 }
 
 .backCardMenu a:hover{
-    color: #FCA311;
+    color: #219EBC;
 }
 
 
