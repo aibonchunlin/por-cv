@@ -21,6 +21,7 @@
     padding-bottom: unset;
     margin-bottom: unset;
     position: relative;
+    font-size: 20px;
 }
 
 /* .textContent p.content_tit::after {
@@ -62,6 +63,7 @@
 /* Banner_end */
 
 /* 內容_start */
+
 .proAccor{
     margin-top: 10px;
     padding-bottom: 30px;
@@ -91,10 +93,14 @@
     font-weight: 600;
 }
 
+/* 標題 */
+.contentTitle span{
+    margin-bottom: 18px;
+}
 
 
 
-/* diamond Think */
+/* Diamond Think_START */
 .portfItem.porThink{
     border: unset;
     padding: 15px;
@@ -138,10 +144,10 @@
     top: -28px;
     left: -5px;
 }
+/* Diamond Think_END */
 
 
-
-/* productDesigner list */
+/* ProductDesigner listAccordion_start */
 .proAccorInner button{
     letter-spacing: 1px;
     font-size: 19px;
@@ -332,7 +338,11 @@
     top: -50px;
 } */
 
-/* bannerDesign */
+/* ProductDesigner listAccordion_END */
+
+
+
+/* GameBannerDesign_start */
 .designBanner{
     margin-top: 20px;
     padding-bottom: 30px;
@@ -367,10 +377,126 @@
 .backCardMenu a:hover{
     color: #219EBC;
 }
+/* GameBannerDesign_end */
 
 
+/* WebDesigner_START */
 
-/* about */
+.row.wd_row .portfName .textSubtitle {
+    font-size: 15px;
+}
+
+.portfItem .porSPA .portfItem.portfSpaTit {
+    margin-bottom: 25px;
+}
+
+.portfName .textTitle{
+    height: unset;
+    font-size: 20px;
+}
+
+/* web-item */
+.portfItem .portfImg .portfImgInner{
+    border-bottom: unset;
+    padding-bottom: 45%;
+}
+
+.portfImg .portfImgInner img{
+    width: 100%;
+    max-height: unset;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.portfItem:hover .portfImgInner {
+    transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+}
+
+/* web-item_SPA_item_start */
+.portfItem.spaItem:hover {
+    box-shadow: unset;
+    -webkit-box-shadow: unset;
+    -moz-box-shadow: unset;
+    -ms-box-shadow: unset;
+    -o-box-shadow: unset;
+}
+
+.portfItem.spaItem .portfItem.portfSpaTit .portfName::after {
+    height: 4px;
+}
+
+/* left-img */
+.portfItem.spaItem .porSPA .portfImg .portfImgInner {
+    padding-bottom: 55%;
+}
+
+.portfItem.spaItem:hover .porSPA .portfImgInner {
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    cursor: context-menu;
+}
+
+.portfItem.spaItem:hover .porSPA .portfImgInner::before {
+    display: none;
+}
+
+/* right-three-list */
+
+.portfItem.spaItem:hover .portfItem.portfSpaTit .portfName .textTitle {
+    color: #14213D;   
+}
+
+.portfItem.spaItem:hover .portfItem.portfSpaTit .portfName::after {
+    background: #FCA311;
+}
+
+.portfItem.spaItem:hover .portfItem.portfSpaTit:hover{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.portfItem.spaItem .portfItem.portfSpaTit:hover .portfName .textTitle {
+    color: rgb(110, 110, 110);
+}
+
+.portfItem.spaItem .portfItem.portfSpaTit:hover .portfName::after {
+    background: #219EBC;
+}
+
+.portfImg .portfImgInner.landPage img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/* web-item_spa_item_end */
+
+
+/* WebDesigner_END */
+
+
+/* About_start */
 .portfItem .aboutCanList ul li{
     font-size: 18px;
 }
@@ -378,6 +504,7 @@
 .aboutCanList p{
     font-size: 18px;
 }
+/* About_end */
 
 
 /* 內容_end */
@@ -450,7 +577,8 @@
     .topInfoContainer{
         padding: unset;
     }
-    /* product designer list */
+    
+    /* product designer list start */
     .proCard{
         padding: 15px 5px;
     }
@@ -555,6 +683,7 @@
 @media only screen and (max-width: 440px) {}
 
 @media only screen and (max-width: 420px) {
+    /* Diamond Think */
     .thinkTit .content_tit.pdTit::before{
         left: 0px;
     }
@@ -564,5 +693,10 @@
     }
     .porImg.UX5S img {
         width: 80%;
+    }
+
+    /* webDesigner */
+    .row.wd_row .portfName .textTitle{
+        font-size: 18px;
     }
 }
