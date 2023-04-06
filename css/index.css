@@ -575,6 +575,11 @@
     .topInfoContainer{
         padding: unset;
     }
+
+    /* about */
+    /* .textContent ul.abtUL li::marker {
+        list-style: unset;
+    } */
     
     /* product designer list start */
     .proCard{
