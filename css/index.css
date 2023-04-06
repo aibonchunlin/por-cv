@@ -148,6 +148,19 @@
 
 
 /* ProductDesigner listAccordion_start */
+
+.card.proAccorInner{
+    border: 1px solid #d3d3d3;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+.accordion>.card.proAccorInner>.card-header#headingThree {
+    margin-bottom: 0;
+}
+
 .proAccorInner button{
     letter-spacing: 1px;
     font-size: 19px;
